@@ -65,7 +65,8 @@ df_cogs['SKU'] = df_cogs['SKU'].str.replace('CM-', '')
 df_expenses['Month'] = df_expenses['Month'].map(month_map)
 df_expenses['Month Number'] = df_expenses['Month'].map(month_num)
 
-ventana = st.selectbox("", ["Farms", "Clients"])
+# ventana = st.selectbox("", ["Farms", "Clients"])
+ventana = "Farms"
 if ventana == "Farms":
 
     # Sidebar
